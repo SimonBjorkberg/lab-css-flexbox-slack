@@ -69,14 +69,14 @@ footer links grey: #454245
         color: #ECB12F;
     }
 
-    #header-button {
+    .buttons {
         display: flex;
         margin: 0 auto 4.5rem auto;
         flex-direction: column;
         width: 18rem;
         height: 3rem;
     }
-    #header-button button {
+    .buttons button {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 0.9rem;
         font-weight: bold;
@@ -178,5 +178,113 @@ footer links grey: #454245
     .information a {
         text-decoration: none;
         font-size: 0.9rem;
+    }
+
+    #section-two {
+        background-color: white;
+        padding-top: 2rem;
+    }
+    #section-two h3 {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    #section-two p {
+        text-align: center;
+        font-size: 1rem;
+        width: 98%;
+        margin: 0 auto 1rem auto;
+    }
+    #section-two-buttons {
+        margin-bottom: 7rem;
+    }
+    #section-two-buttons button {
+        padding: 0.95rem;
+    }
+    #s-two-first-button {
+        color: white;
+        background-color: #540B51;
+        font-weight: lighter;
+    }
+    #s-two-second-button {
+        color: #540B51;
+        background-color: white;
+        border-color: #540B51;
+        border: solid;
+        border-width: thin;
+    }
+    #section-two ul {
+        width: 50%;
+        padding: 0;
+        margin: 3rem auto 0 auto;
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section-two ul li p span{
+        color: #540B51;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #section-two ul li p {
+        font-weight: bold;
+    }
+
+
+    #section-three {
+        background-color: #540B51;
+        padding-bottom: 3rem;
+    }
+    #section-three h3 {
+        margin-top: 0;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        padding: 2rem 0 1.5rem 0;
+        width: 90%;
+        margin: auto auto 0 auto;
+    }
+    #section-three div button {
+        padding: 0.95rem;
+    }
+    #s-three-first-button {
+        background-color: #540B51;
+        border: solid;
+        border-width: thin;
+        color: white;
+        border-color: white;
+    }
+    #s-three-second-button {
+        color: #540B51;
+    }
+    
+
+    #footer {
+        width: 94%;
+        margin: 2rem auto auto auto;
+    }
+    #footer img {
+        width: 3rem;
+    }
+    #footer-first-div {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    #footer-first-div ul {
+        width: 20%;
+        padding: 0;
+        list-style: none;
+    }
+    #footer-first-div ul li {
+        margin-top: 1.2rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bold-text {
+        font-weight: bold;
+        margin-bottom: 1.7rem;
+        font-size: 0.7rem;
     }
 }
