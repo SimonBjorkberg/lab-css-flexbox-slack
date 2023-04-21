@@ -24,7 +24,7 @@ footer links grey: #454245
         color: grey;
     }
 
-    /* Removes the links and adds the hamburger menu */
+    /* Removes the links so that I can add the hamburger menu */
     #links {
         display: none;
     }
@@ -131,9 +131,12 @@ footer links grey: #454245
 
 
     /* Large image before the Trusted companies bit */
-    #first-image  img{
+    #first-image {
         width: 100%;
-        object-fit: cover;
+        overflow: hidden;
+    }
+    #first-image img{
+        width: 148%;
     }
 
     /* Trusted companies section */
@@ -359,7 +362,7 @@ footer links grey: #454245
         width: 100%;
         margin-left: auto;
         margin-right: auto;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 0;
         font-size: 1rem;
         margin: 2rem 0 2rem 0;
