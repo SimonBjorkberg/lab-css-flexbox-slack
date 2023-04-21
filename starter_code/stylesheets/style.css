@@ -14,10 +14,25 @@ footer links grey: #454245
         margin: 0;
         font-family: Arial, Helvetica, sans-serif;
     }
+    main {
+        background-color: #F3EAE2;
+    }
+    small {
+        font-size: 0.6rem;
+        padding-bottom: 2rem;
+        line-height: 1rem;
+        color: grey;
+    }
+
+    /* Removes the links and adds the hamburger menu */
     #links {
         display: none;
     }
 
+
+
+
+    /* The navigation styles */
     .nav {
         display: flex;
         background-color: #540B51;
@@ -48,6 +63,10 @@ footer links grey: #454245
     }
 
 
+
+
+
+    /* The header styles */ 
     #header {
         background-color: #540B51;
         padding-top: 1rem;
@@ -68,7 +87,6 @@ footer links grey: #454245
     #p-yellow {
         color: #ECB12F;
     }
-
     .buttons {
         display: flex;
         margin: 0 auto 4.5rem auto;
@@ -108,13 +126,17 @@ footer links grey: #454245
         margin: auto 0 auto 0;
     }
 
+
+
+
+
+    /* Large image before the Trusted companies bit */
     #first-image  img{
-        width: 148%;
+        width: 100%;
+        object-fit: cover;
     }
 
-    main {
-        background-color: #F3EAE2;
-    }
+    /* Trusted companies section */
     #trusted-companies p {
         text-align: center;
         padding-top: 2rem;
@@ -159,9 +181,15 @@ footer links grey: #454245
         width: 2.5rem;
     }
 
+
+
+    /* Section one, all the large images and their paragraphs */
+
     .s-one-img-width {
         width: 95%;
     }
+
+    /* The middle GREEN image that had to be aligned to the right */
     #s-one-align-r {
         margin-left: 5%;
     }
@@ -179,6 +207,12 @@ footer links grey: #454245
         text-decoration: none;
         font-size: 0.9rem;
     }
+
+
+
+
+
+    /* Section two, Teams large and small */
 
     #section-two {
         background-color: white;
@@ -231,6 +265,10 @@ footer links grey: #454245
     }
 
 
+
+
+
+    /* Section Three */
     #section-three {
         background-color: #540B51;
         padding-bottom: 3rem;
@@ -259,6 +297,10 @@ footer links grey: #454245
     }
     
 
+
+
+
+    /* Footer */
     #footer {
         width: 94%;
         margin: 2rem auto 0 auto;
@@ -290,11 +332,6 @@ footer links grey: #454245
         margin-bottom: 1.7rem;
         font-size: 0.7rem;
     }
-    #footer li img {
-        width: 5%;
-    }
-    #last-section {
-    }
 
     #last-section ul {
         padding: 0;
@@ -309,6 +346,9 @@ footer links grey: #454245
     }
     #testing {
         display: flex;
+    }
+    #testing img {
+        width: 1rem;
     }
     #blue-text {
         color: #2E71A6;
@@ -332,11 +372,5 @@ footer links grey: #454245
         padding: 0.3px;
         background-color: rgb(108, 45, 122);
         border: none;
-    }
-    small {
-        font-size: 0.6rem;
-        padding-bottom: 2rem;
-        line-height: 1rem;
-        color: grey;
     }
 }
