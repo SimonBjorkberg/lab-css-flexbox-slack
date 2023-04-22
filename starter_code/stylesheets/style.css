@@ -1032,27 +1032,29 @@ footer links grey: #454245
     }
 
 
-
+    #row-reverse {
+        flex-direction: row-reverse;
+    }
     .s-one-img-width {
+        height: 25rem;
         width: 30rem;
     }
 
     /* The middle GREEN image that had to be aligned to the right */
     #s-one-align-r {
-        width: 100%;
+        display: flex;
     }
     #s-one-align-r img {
         float: right;
-        padding-left: 40rem;
-        margin-bottom: 3rem;
+        display: flex;
     }
 
     .information {
         margin: 3rem auto;
-        width: 25rem;
+        width: 20rem;
     }
     .information h2 {
-        font-size: 1.4rem;
+        font-size: 1.9rem;
     }
     .information p {
         font-size: 0.9rem;
@@ -1060,6 +1062,10 @@ footer links grey: #454245
     .information a {
         text-decoration: none;
         font-size: 0.9rem;
+    }
+    .container {
+        margin: 5rem 0 5rem 0;
+        display: flex;
     }
 
 
