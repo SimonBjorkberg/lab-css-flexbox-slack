@@ -28,6 +28,9 @@ footer links grey: #454245
     #links {
         display: none;
     }
+    #signup-background {
+        display: none;
+    }
 
 
 
@@ -375,5 +378,417 @@ footer links grey: #454245
         padding: 0.3px;
         background-color: rgb(108, 45, 122);
         border: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+    /* Some general site styles */
+    body {
+        width: 100%;
+        font-size: 10px;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    main {
+        background-color: #F3EAE2;
+    }
+    small {
+        font-size: 0.6rem;
+        padding-bottom: 2rem;
+        line-height: 1rem;
+        color: grey;
+    }
+
+
+    /* removes the links for the hamburger menu */
+    #links {
+        display: none;
+    }
+    #lower-hr {
+        opacity: 0.2;
+    }
+    #upper-hr {
+        margin: 0;
+        padding: 0.3px;
+        background-color: rgb(108, 45, 122);
+        border: none;
+    }
+
+
+
+    /* The nav bar */
+    .nav {
+        display: flex;
+        background-color: #540B51;
+        justify-content: space-between;
+        padding: 1.5rem 0 1.5rem 0;
+        width: 100%;
+    }
+    #left-nav {
+        display: flex;
+        margin-left: 1.5rem;
+    }
+    #left-nav img {
+        display: flex;
+        width: 5.5rem;
+        height: 1.5rem;
+    }
+    #right-nav {
+        display: flex;
+        justify-content: space-around;
+        width: 5rem;
+        margin-right: 1.5rem;
+    }
+    #right-nav button {
+        width: 1rem;
+        background-color: transparent;
+        border: none;
+        outline: none;
+    }
+
+
+
+    /* The header */
+    #header {
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 5rem;
+        background-color: red;
+    }
+    #signup-background {
+        position: absolute;
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+    #signup-background img {
+        overflow: hidden;
+        width: 90rem;
+        height: 45rem;
+    }
+    #first-image img {
+        display: flex;
+        position: relative;
+        width: 35rem;
+        margin-top: -25rem;
+        margin-left: 40rem
+    }
+
+    #text h1 {
+        position: relative;
+        text-align: left;
+        width: 22rem;
+        color: white;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        font-size: 4rem;
+        padding: 3rem 2rem 0;
+    }
+    #text p {
+        position: relative;
+        text-align: left;
+        margin-left: 2rem;
+        color: white;
+        font-size: 1rem;
+        width: 17rem;
+        font-weight: bold;
+    }
+    #p-yellow {
+        color: #ECB12F;
+    }
+    .buttons {
+        position: relative;
+        display: flex;
+        margin: 0 auto 4.5rem auto;
+        flex-direction: column;
+        width: 25rem;
+        height: 3rem;
+    }
+    .buttons button {
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        border: none;
+        border-radius: 0.2rem;
+    }
+    #button-one {
+        color: #540B51;
+        padding: 0.95rem;
+    }
+    #button-two {
+        display: flex;
+        background-color: #4285F4;
+        color: white;
+        padding: 0.3rem
+    }
+    #button-two span {
+        width: 93%;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: -0.65rem;
+    }
+    #button-two img {
+        position: relative;
+        width: 6%;
+        border-radius: 0.2rem;
+        padding: 0.3rem;
+        background-color: white;
+        margin: auto 0 auto 0;
+    }
+    #first-buttons {
+        margin-left: 2rem;
+    }
+
+
+    /* Trusted companies section */
+    #trusted-companies {
+        padding-top: 5.5rem;
+        margin-bottom: 2rem;
+    }
+    #trusted-companies p {
+        text-align: center;
+        padding-top: 2rem;
+        margin: 0;
+        font-size: 0.79rem;
+        font-weight: bold;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    #trusted-companies > div {
+        padding-bottom: 2.5rem;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 90%;
+        margin: auto;
+    }
+    #trusted-companies div img {
+        padding-top: 1.2rem;
+        margin: 0 0.3rem 0 0.3rem;
+    }
+    .round-icons {
+        width: 3rem;
+    }
+    .other-icons {
+        width: 5rem;
+    }
+    #new-york-times {
+        width: 10rem;
+    }
+    #spotify {
+        width: 6.5rem;
+    }
+    #nasa {
+        width: 3.5rem;
+    }
+    #uber {
+        width: 4rem;
+    }
+    #airbnb {
+        width: 5.5rem;
+    }
+    #target {
+        width: 2.5rem;
+    }
+
+
+    /* Section one, all the large images and their paragraphs */
+
+    .s-one-img-width {
+        width: 40rem;
+    }
+
+    /* The middle GREEN image that had to be aligned to the right */
+    #s-one-align-r {
+        background-color: red;
+        width: 100%;
+    }
+    #s-one-align-r img {
+        float: right;
+        padding-left: 7rem;
+        margin-bottom: 3rem;
+    }
+
+    .information {
+        margin: 3rem auto;
+        width: 25rem;
+    }
+    .information h2 {
+        font-size: 1.4rem;
+    }
+    .information p {
+        font-size: 0.9rem;
+    }
+    .information a {
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+
+
+    /*   */
+    #section-two {
+        background-color: white;
+        padding-top: 2rem;
+    }
+    #section-two h3 {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+    #section-two p {
+        text-align: center;
+        font-size: 1rem;
+        width: 98%;
+        margin: 0 auto 1rem auto;
+    }
+    #section-two-buttons {
+        width: 25rem;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4rem;
+        justify-content: space-between;
+        height: 3.5rem;
+    }
+    #section-two-buttons button {
+        padding: 0.95rem;
+    }
+    #s-two-first-button {
+        color: white;
+        background-color: #540B51;
+        font-weight: lighter;
+    }
+    #s-two-second-button {
+        color: #540B51;
+        background-color: white;
+        border-color: #540B51;
+        border: solid;
+        border-width: thin;
+    }
+    #section-two ul {
+        width: 45rem;
+        padding: 0;
+        padding-bottom: 3rem;
+        margin: 3rem auto 0 auto;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #section-two ul li {
+        width: 26%;
+    }
+    #section-two ul li p span{
+        color: #540B51;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    #section-two ul li p {
+        font-weight: bold;
+        text-align: left;
+    }
+
+    /* Section Three */
+    #section-three {
+        background-color: #540B51;
+    }
+    #section-three h3 {
+        margin-top: 0;
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+        padding: 2rem 0 1.5rem 0;
+        width: 90%;
+        margin: auto auto 0 auto;
+    }
+    #section-three div {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 4rem;
+        width: 35rem;
+    }
+    #section-three div button {
+        padding: 0.95rem;
+    }
+    #s-three-first-button {
+        background-color: #540B51;
+        border: solid;
+        border-width: thin;
+        color: white;
+        border-color: white;
+    }
+    #s-three-second-button {
+        color: #540B51;
+    }
+    #last-buttons-margin {
+        padding-bottom: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    /* Footer */
+    #footer {
+        width: 94%;
+        margin: 0rem auto 0 auto;
+    }
+    #footer li {
+        list-style: none;
+    }
+    #footer img {
+        width: 3rem;
+    }
+    #footer-first-div {
+        margin-bottom: 4rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    #footer-first-div ul {
+        width: 20%;
+        padding: 0;
+    }
+    #footer-first-div ul li {
+        margin-top: 1.2rem;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bold-footer-text {
+        font-weight: bold;
+        margin-bottom: 1.7rem;
+        font-size: 0.7rem;
+    }
+
+    #last-section ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+    }
+    #last-section ul li {
+        margin-top: 1.5rem;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    #last-section ul li span {
+        margin-left: 0.3rem;
+    }
+    #testing {
+        display: flex;
+    }
+    #testing img {
+        width: 1rem;
+    }
+    #blue-text {
+        color: #2E71A6;
+    }
+
+    #last-links {
+        display: flex;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: space-around;
+        padding: 0;
+        font-size: 1rem;
+        margin: 2rem 0 2rem 0;
     }
 }
